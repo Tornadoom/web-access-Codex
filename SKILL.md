@@ -12,6 +12,20 @@ metadata:
 
 # web-access Skill
 
+## Codex 本地路径
+
+本机已按 Codex skill 目录安装时，skill 根目录为：
+
+```text
+C:\Users\cyz47\.codex\skills\web-access
+```
+
+上游文档和示例中的 `${CLAUDE_SKILL_DIR}` 是 Claude Code 的自动环境变量；在 Codex 中如果该变量不存在，请直接替换为上面的实际路径。例如：
+
+```powershell
+node "C:\Users\cyz47\.codex\skills\web-access\scripts\check-deps.mjs"
+```
+
 ## 前置检查
 
 在开始联网操作前，先检查 CDP 模式可用性：
