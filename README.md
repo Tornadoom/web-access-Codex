@@ -109,6 +109,14 @@ claude plugin install web-access@web-access --scope user
 git clone https://github.com/eze-is/web-access ~/.claude/skills/web-access
 ```
 
+**Codex 本地安装路径（本机已适配）**
+
+```text
+C:\Users\cyz47\.codex\skills\web-access
+```
+
+下方示例里的 `${CLAUDE_SKILL_DIR}` 是 Claude Code 的自动环境变量；在 Codex 中如果该变量不存在，请替换为上面的实际路径。
+
 ## 前置配置（CDP 模式）
 
 CDP 模式需要 **Node.js 22+** 和浏览器（Chrome / Edge）开启远程调试：
